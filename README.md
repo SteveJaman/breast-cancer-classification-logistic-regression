@@ -1,5 +1,5 @@
-Breast Cancer Classification Analysis
-Overview
+**Breast Cancer Classification Analysis
+**Overview
 
 This repository contains a machine learning project designed to classify breast tumors as Malignant or Benign. Using the Wisconsin Diagnostic Breast Cancer (WDBC) dataset, I built a Logistic Regression model that analyzes 30 different cell nuclei measurements to provide a highly accurate diagnostic prediction.
 Performance Metrics
@@ -14,7 +14,7 @@ The model achieved the following results on the test set:
 
         65 Malignant samples correctly identified (3 misclassified).
 
-Dataset
+**Dataset**
 
 The dataset includes 569 samples with 30 quantitative features such as:
 
@@ -24,8 +24,8 @@ The dataset includes 569 samples with 30 quantitative features such as:
 
     Concavity and Symmetry Features are categorized by their Mean, Standard Error (se), and "Worst" (largest) values.
 
-Project Pipeline
-
+**Project Pipeline
+**
     Data Cleaning: Handled headers, removed non-predictive IDs, and encoded diagnoses (M=1, B=0).
 
     Preprocessing: Used StandardScaler to normalize feature scales for the Logistic Regression algorithm.
@@ -34,8 +34,8 @@ Project Pipeline
 
     Evaluation: Generated classification reports, confusion matrices, and ROC curves to validate reliability.
 
-Top Predictors
-
+**Top Predictors
+**
 The analysis identified that the following features have the highest influence on predicting malignancy:
 
     texture_worst
@@ -48,12 +48,12 @@ The analysis identified that the following features have the highest influence o
 
     area_worst
 
-Technologies Used
-
+**Technologies Used
+**
     Language: Python
 
     Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
 
-Course: CPE 4040
+**Course**: CPE 4040
 
-Authors: Anthony Nguyen & Steven Marsh (Team NaN Sense)
+**Authors**: Anthony Nguyen & Steven Marsh (Team NaN Sense)
